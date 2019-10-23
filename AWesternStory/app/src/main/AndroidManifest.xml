@@ -16,6 +16,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name="com.hotsaucefiretruck.awesternstory.MainActivity"
+            android:screenOrientation="landscape"
             android:configChanges="orientation|screenSize"><!-- To Stop Reload of WebView on Screen Rotation -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
